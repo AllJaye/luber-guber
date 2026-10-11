@@ -1,11 +1,11 @@
-# Luber & Guber — Version 3 demo
+# Luber & Guber
 
-[Open the demo](https://alljaye.github.io/luber-guber/)
+Family ride requests with Google sign-in, private Supabase records, Louis, Gadi and Stella driver dashboards, ASAP and scheduled requests, current-location pickup, and optional web push alerts.
 
-Family ride-request demo with ASAP rides, scheduled rides, current-location pickup, Guber jokes, and the driver dashboard.
+Open https://alljaye.github.io/luber-guber/ and sign in. Each driver signs in using their configured Google account, enables alerts on their device, and turns on accepting requests. A rider sees acceptance and subsequent status under Your rides; visible pages refresh every five seconds.
 
-This is a demo, not a live ride-request system. Requests and driver responses are simulated and stored only in the current browser on the current device. No requests are shared between phones and no real notifications are sent.
+On iPhone, open in Safari and use Share → Add to Home Screen. Open the installed app and enable alerts. Each device must opt in separately. Notifications are best effort; always confirm acceptance in the app. This family app is not an emergency service.
 
-GitHub Pages publishes the standalone index.html from main and / (root). No build step or dependencies are required.
+GitHub Pages deploys main/root. Only a publishable API key is included in source. Database policies enforce access to rider and assigned-driver records. Server-side notification credentials stay in Supabase. BeyondTheOverlook is separate.
 
-Open the HTTPS demo link on your phone to test. The current-location button requires browser permission. Use fictional ride details.
+This replaces the original local-only Version 3 demo. The live backend must be configured separately; copying these static files alone does not create a working ride service.
