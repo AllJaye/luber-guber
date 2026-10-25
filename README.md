@@ -1,6 +1,6 @@
-# Luber & Guber
+# Luber
 
-Family ride requests with Google sign-in, private Supabase records, Louis, Gadi and Stella driver dashboards, ASAP and scheduled requests, current-location pickup, and optional web push alerts.
+Family ride requests with Google sign-in, private Supabase records, Louis and Stella driver dashboards, ASAP and scheduled requests, current-location pickup, and optional web push alerts.
 
 Open https://alljaye.github.io/luber-guber/ and sign in. Each driver signs in using their configured Google account, enables alerts on their device, and turns on accepting requests. A rider sees acceptance and subsequent status under Your rides; visible pages refresh every five seconds.
 
